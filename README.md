@@ -1,5 +1,8 @@
 # Portfolio Jesse van Noordt 1505670 
 Dit is het portfolio voor KB-74 Applied data science:
+2018-2019
+Project group Aphasia.
+
 
 ## Courses 
 Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses te vinden.
@@ -7,6 +10,8 @@ Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses
 > Coursera Screenshot:
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
+Het domein waarin het project zich bevind is de zorgkant. Het project richt zich specifiek op aphasia patienten met een licht spraak probleem. Hierin Hebben we tijdens het project te maken met medische jargon maar ook met specifieke kenmerken en begrippen die gebruikt worden warneer er met geluid wordt gewerkt.  In de onderstaande jargon zijn de verschillende begripen beschreven. 
+
 ### Jargon:
 
 * **ASR**: Asigend speech regocintion.
@@ -49,6 +54,7 @@ Parameter kiezen.
 
 
 ## Data preparation
+
 Tijdens het project heb ik mij bezig gehouden met data preparatie. Hierin is de datapreparatie gedaan in de vorm van tekst opschonings technieken. Hierbij heb ik meerdere scripts gemaakt die te tekst opschonen van lege ruimtes,lostaande woorden. In de onderstaande nodebooks is de code voor het verwijdere van lege ruimtes en witte regels:
 * [Cleaning_empty_spaces](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Cleaning_empty_spaces.ipynb)
 
@@ -64,6 +70,7 @@ Het splitten van zinnen in apparte regels:
 Het verplaatsen van files op de server zodat er gemakkelijk mee gewerkt kon worden: 
 * [File_mover_onserver](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/File_Mover_Onserver.ipynb)
 
+###
 
 Cleaning text
 Reformating to used in code form koray
