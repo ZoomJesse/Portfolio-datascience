@@ -2,16 +2,16 @@
 Dit is het portfolio voor KB-74 Applied data science:
 
 ## Courses 
-> Datacamp Screenshot:
+> Datacamp Screenshot:[datacamp]
 > Coursera Screenshot:
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-Jargon:
-ASR:
-Aphasia:
-Phoneme:
-Diphones:
-Seq 2 Seq:
+*Jargon:
+*ASR:
+*Aphasia:
+*Phoneme:
+*Diphones:
+*Seq 2 Seq:
 
 ### Found datasets
 
@@ -52,8 +52,8 @@ Gemaakte en gegeven presentaties
 4. [Presentatie week 5](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%205.pptx)
 5. [Presentatie week 6](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%206.pptx)
 7. [Presentatie week 8](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%208.pptx)
-8. [Presentatie week 10](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%210.pptx)
-9. [Presentatie week 11](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%211.pptx)
+8. [Presentatie week 10](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%2010.pptx)
+9. [Presentatie week 11](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%2011.pptx)
 
 Samenvattingen onderzoeken
 Paper
