@@ -46,14 +46,14 @@ Gemaakte en gegeven presentaties
 
 ### Gemaakte presentaties:
 
-1. [Presentatie week 1]
-2. [Presentatie week 2]
-3. [Presentatie week 4]
-4. [Presentatie week 5]
-5. [Presentatie week 6]
-7. [Presentatie week 8]
-8. [Presentatie week 10]
-9. [Presentatie week 11]
+1. [Presentatie week 1](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%201.pptx)
+2. [Presentatie week 2](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%202.pptx)
+3. [Presentatie week 4](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%204.pptx)
+4. [Presentatie week 5](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%205.pptx)
+5. [Presentatie week 6](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%206.pptx)
+7. [Presentatie week 8](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%208.pptx)
+8. [Presentatie week 10](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%210.pptx)
+9. [Presentatie week 11](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%211.pptx)
 
 Samenvattingen onderzoeken
 Paper
