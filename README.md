@@ -1,9 +1,9 @@
 # Portfolio Jesse van Noordt 1505670 
 Dit is het portfolio voor KB-74 Applied data science:
 
-## Courses (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
-Datacamp Screenshot:
-Coursera Screenshot:
+## Courses 
+> Datacamp Screenshot:
+> Coursera Screenshot:
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 Jargon:
@@ -13,6 +13,9 @@ Phoneme:
 Diphones:
 Seq 2 Seq:
 
+### Found datasets
+
+### Literature 
 
 ## Predictive Models
 
