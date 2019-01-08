@@ -26,7 +26,7 @@ Onderzoek van Roelant Ossewaarde.
 * [Computerized assessment of the acoustics of primary progressive aphasia](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
 * [Automated detection of unfilled pauses in speech of healthy and brain-damaged individuals](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
 * [Feature Extraction Methods LPC, PLP and MFCC In Speech Recognition](https://pdfs.semanticscholar.org/0b44/265790c6008622c0c3de2aa1aea3ca2e7762.pdf)
-* [Speech Processing for Machine Learning: Filter banks, Mel-Frequency Cepstral Coefficients (MFCCs) and What's In-Between] (https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
+* [Speech Processing for Machine Learning: Filter banks, Mel-Frequency Cepstral Coefficients (MFCCs) and What's In-Between](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
 
 
 Onderzoek over features die we gebruiken.
