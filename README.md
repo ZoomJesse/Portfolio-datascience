@@ -2,22 +2,38 @@
 Dit is het portfolio voor KB-74 Applied data science:
 
 ## Courses 
-> Datacamp Screenshot:[datacamp]
+Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses te vinden.
+> Datacamp Screenshot:![datacamp](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Datacamp.png)
 > Coursera Screenshot:
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-*Jargon:
-*ASR:
-*Aphasia:
-*Phoneme:
-*Diphones:
-*Seq 2 Seq:
+* Jargon:
+* ASR:
+* Aphasia:
+* Phoneme:
+* Diphones:
+* Seq 2 Seq:
 
 ### Found datasets
+Naam dataset | Eigenaar |Verwijzingen
+------------ |----------|-------------
+CGN_2.0.3 | Nederlandse Taalunie|[link](http://lands.let.ru.nl/cgn/)
+MPI diphones database|MPI|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-dutch)  
+Voxforge database|VoxForge|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-dutch)
 
 ### Literature 
 
 ## Predictive Models
+* [MLP_keras](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras.ipynb)
+* [File_mover_onserver](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/File_Mover_Onserver.ipynb)
+* [Cleaning_empty_spaces](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Cleaning_empty_spaces.ipynb)
+* [MLP_Keras_nieuws](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras-Nieuws.ipynb)
+* [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
+* [Text_splitter](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Splitter_Final.ipynb)
+* [Tsne-test](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/TSNE%20-%20test%20script%20for%20training%20.ipynb)
+* [Removing_solowords](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Removing_solo_words.ipynb)
+
+
 
 ## Data preparation
 Cleaning text
