@@ -7,12 +7,17 @@ Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses
 > Coursera Screenshot:
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-* Jargon:
-* ASR:
-* Aphasia:
-* Phoneme:
-* Diphones:
-* Seq 2 Seq:
+### Jargon:
+
+* **ASR**: Asigend speech regocintion.
+
+* **Aphasia**: Is een taalstoornis die zich betrekt over meerdere gebieden zoals spreken, taalbegrip lezen en schrijven en begrijpen. Afasie is vertaalt ook niet(a) spreken(fasie).
+
+* **Phoneme**: Een phoneme of foneem is een verzameling van klanken die allemaal de zelfde betekenis hebben. hierbij kan gedacht worden aan bijvoorbeeld de klank "oe" van moer. 
+
+* **Diphones**: Een diphone of difoon is een spraakklank die bestaat uit twee opeenvolgende phonemes/fonen. hierbij ligt de nadruk tussen de overgang van de ene naar de andere foneem. een diphone begint vaak op de helft van de eerste phoneme en eindigt bij na de eerste helft van de eerst. 
+
+* **Seq 2 Seq**:Sequence to sequence learning is een probleem aanpak waarin een model wordt getraind op twee verschillende sequences bijvoorbeeld audio en een tekst sequence. Hierbij probeert het model aan de hand van een sequence te andere sequence te voorspellen.[afbeelding sec2sec]
 
 ### Found datasets
 Naam dataset | Eigenaar |Verwijzingen
@@ -32,8 +37,11 @@ Onderzoek van Roelant Ossewaarde.
 Onderzoek over features die we gebruiken.
 
 ## Predictive Models
+De predictive model die ik heb gemaakt is een multylayer perceptron. Ik heb hierbij gemaakt van Keras dat runned op een tensorflow backend. 
+
+Parameter kiezen. 
+
 * [MLP_keras](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras.ipynb)
-* [File_mover_onserver](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/File_Mover_Onserver.ipynb)
 * [MLP_Keras_nieuws](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras-Nieuws.ipynb)
 * [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
 
@@ -41,10 +49,21 @@ Onderzoek over features die we gebruiken.
 
 
 ## Data preparation
-* [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
+Tijdens het project heb ik mij bezig gehouden met data preparatie. Hierin is de datapreparatie gedaan in de vorm van tekst opschonings technieken. Hierbij heb ik meerdere scripts gemaakt die te tekst opschonen van lege ruimtes,lostaande woorden. In de onderstaande nodebooks is de code voor het verwijdere van lege ruimtes en witte regels:
 * [Cleaning_empty_spaces](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Cleaning_empty_spaces.ipynb)
-* [Text_splitter](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Splitter_Final.ipynb)
+
+Notebook voor het verwijderen van enkele woorden:
 * [Removing_solowords](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Removing_solo_words.ipynb)
+
+Een andere vorm van data preperatie waar ik aan heb gewerk is het herformateren van de text bestanden, locatie van bestanden en de structuur in de tekst. Zo heb ik scripts geschreven voor het omzetten van alle tekstfiles naar een dicationary. 
+* [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
+
+Het splitten van zinnen in apparte regels:
+* [Text_splitter](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Splitter_Final.ipynb)
+
+Het verplaatsen van files op de server zodat er gemakkelijk mee gewerkt kon worden: 
+* [File_mover_onserver](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/File_Mover_Onserver.ipynb)
+
 
 Cleaning text
 Reformating to used in code form koray
@@ -69,6 +88,12 @@ UVA
 
 
 ## Evaluation
+Bij de evaluatie van de kwaliteit van de data en mijn modellen heb ik gebruikt gemaakt van verschillende maat staffen.
+
+* Accuracy score
+* N-Fold crossvalidatie
+* Handmatige sellectie   (dutchwikipedia data, controle testdata)
+* afbeelding handmatige selectie. 
 
 ## Diagnostics of the learning process
 Tijdens het leren van moddelen heb ik gebruik gemaakt van verschillende methodes om te kijken of het leerprocess goed verloopt. Tijdens het trainen zelf heb ik ingeschakkeld dat per epochs gezien kan worden van de score in accuracy is op de training en test set, ook de loss van het model is weer te geven. 
@@ -95,7 +120,6 @@ Gemaakte en gegeven presentaties
 8. [Presentatie week 10](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%2010.pptx)
 9. [Presentatie week 11](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%2011.pptx)
 
-Samenvattingen onderzoeken
 Paper
 
 ## List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
