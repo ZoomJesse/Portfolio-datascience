@@ -43,6 +43,18 @@ UVA
 
 ## Communication (presentations, summaries, paper, ...)
 Gemaakte en gegeven presentaties
+
+### Gemaakte presentaties:
+
+1. [Presentatie week 1]
+2. [Presentatie week 2]
+3. [Presentatie week 4]
+4. [Presentatie week 5]
+5. [Presentatie week 6]
+7. [Presentatie week 8]
+8. [Presentatie week 10]
+9. [Presentatie week 11]
+
 Samenvattingen onderzoeken
 Paper
 
