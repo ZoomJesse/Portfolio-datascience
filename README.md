@@ -92,6 +92,8 @@ tabel datasets die we gevonden hebben.
 Wikipedia
 VoxForge
 UVA
+Booken omzetten
+Manualy speeking
 
 
 ## Evaluation
