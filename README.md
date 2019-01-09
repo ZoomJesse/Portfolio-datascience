@@ -29,9 +29,11 @@ Naam dataset | Eigenaar |Verwijzingen
 ------------ |----------|-------------
 CGN_2.0.3 | Nederlandse Taalunie|[link](http://lands.let.ru.nl/cgn/)
 MPI diphones database|MPI|[link](https://www.mpi.nl/world/dcsp/diphones/index.html)  
-Voxforge database|VoxForge|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-dutch)
+Voxforge database|VoxForge|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-d|?>?|[link](utch)
+Dutch Wikipedia corpus|?>?|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-d|?>?|[link](utch)
 
 ### Literature 
+Voor literatuur onderzoek, 
 Onderzoek van Roelant Ossewaarde.
 * [Computerized assessment of the acoustics of primary progressive aphasia](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
 * [Automated detection of unfilled pauses in speech of healthy and brain-damaged individuals](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
