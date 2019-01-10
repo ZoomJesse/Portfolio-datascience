@@ -13,36 +13,45 @@ Het domein waarin het project zich bevind is de zorgkant. Het project richt zich
 
 ### Jargon:
 
-* **ASR**: Asigend speech regocintion.
+* **ASR**: Assigned speech revocation. Ook wel spraak herkenning genoemd, vallen methodes en technieken onder die worden ontwikkeld om door computers gesproken worden te laten herkennen en verwerken. 
 
 * **Aphasia**: Is een taalstoornis die zich betrekt over meerdere gebieden zoals spreken, taalbegrip lezen en schrijven en begrijpen. Afasie is vertaalt ook niet(a) spreken(fasie).
 
-* **Phoneme**: Een phoneme of foneem is een verzameling van klanken die allemaal de zelfde betekenis hebben. hierbij kan gedacht worden aan bijvoorbeeld de klank "oe" van moer. 
+* **Phoneme**: Een phoneme/foneem is een verzameling van klanken die allemaal de zelfde betekenis hebben. hierbij kan gedacht worden aan bijvoorbeeld de klank "oe" van moer.
 
-* **Diphones**: Een diphone of difoon is een spraakklank die bestaat uit twee opeenvolgende phonemes/fonen. hierbij ligt de nadruk tussen de overgang van de ene naar de andere foneem. een diphone begint vaak op de helft van de eerste phoneme en eindigt bij na de eerste helft van de eerst. 
+* **Diphones**: Een diphone of difoon is een spraakklank die bestaat uit twee opeenvolgende phonemes/fonen. hierbij ligt de nadruk tussen de overgang van de ene naar de andere foneem. een diphone begint vaak op de helft van de eerste phoneme en eindigt bij na de eerste helft van de eerst.
 
-* **Seq 2 Seq**:Sequence to sequence learning is een probleem aanpak waarin een model wordt getraind op twee verschillende sequences bijvoorbeeld audio en een tekst sequence. Hierbij probeert het model aan de hand van een sequence te andere sequence te voorspellen.[afbeelding sec2sec]
+* **Seq 2 Seq**:Sequence to sequence learning is een probleem aanpak waarin een model wordt getraind op twee verschillende sequences bijvoorbeeld audio en een tekst sequence. Hierbij probeert het model aan de hand van een sequence te andere sequence te voorspellen
 
 
 ### Literature 
-Voor literatuur onderzoek, 
-Onderzoek van Roelant Ossewaarde.
+
+In het domein van ASR en Aphasia onderzoek in de voor van datascience zijn de volgende artikelen handig om in te kijken. 
+Onderzoek van Roelant Ossewaarde, Hierbij wordt gebruik gemaakt van audio van aphasia patienten en technieken binnen datasciece om pauzes te detecteren. Ook heeft hij een artikel geschreven over computer technieken gebruikt kunnen worden bij geluid van aphasia patienten.
 * [Computerized assessment of the acoustics of primary progressive aphasia](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
 * [Automated detection of unfilled pauses in speech of healthy and brain-damaged individuals](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
-* [Feature Extraction Methods LPC, PLP and MFCC In Speech Recognition](https://pdfs.semanticscholar.org/0b44/265790c6008622c0c3de2aa1aea3ca2e7762.pdf)
+
+Andere artiekelen die belangrijk zijn in het domein waarin het project zich bevind zijn:
+
+* [Feature Extraction Methods LPC, PLPand MFCC In Speech Recognition](https://pdfs.semanticscholar.org/0b44/265790c6008622c0c3de2aa1aea3ca2e7762.pdf)
 * [Speech Processing for Machine Learning: Filter banks, Mel-Frequency Cepstral Coefficients (MFCCs) and What's In-Between](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
 
+In deze artikkelen wordt de nadruk gelecht over feature extractie uit audio/spraak. dit is belangrijk voor het project en het domein om dat dit de achterliggende technieken zijn die worden gebruikt om informatie uit de audio te halen. 
 
-Onderzoek over features die we gebruiken.
 
 ## Predictive Models
 De predictive model die ik heb gemaakt is een multylayer perceptron. Ik heb hierbij gemaakt van Keras dat runned op een tensorflow backend. 
 
-Parameter kiezen. 
+Voor de Hyperparameters van het model kiezen heb ik gebruik gemaakt van de diagnostics later in het portofolio besproken. 
+* Learningrate:0.003
+* Dropout:0.4
+* Hiddenlayers:3 hidden layers
+Afbeelding van hoe hyperparameters zijn geimplementeerd:
+![AFBEELDINGMODEL](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/model.PNG)
 
+Nodebooks MLP verschillende datasets:
 * [MLP_keras](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras.ipynb)
 * [MLP_Keras_nieuws](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras-Nieuws.ipynb)
-* [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
 
 ## Data collection
 The data collection in dit project is gebeurt overschillende manieren. 
@@ -59,14 +68,6 @@ Dutch Wikipedia corpus|Rachael Tatman|![link](https://www.kaggle.com/rtatman/spo
 Ook het zelf genereren van test_data voor korte experimenten door bijvoorbeeld het zelf inspreken van audio, en daar dan de bijhorende tekst van hebben.
 
 
-tabel datasets die we gevonden hebben.
-Wikipedia
-VoxForge
-UVA
-Booken omzetten
-Manualy speeking
-
-
 ## Data preparation
 
 Tijdens het project heb ik mij bezig gehouden met data preparatie. Hierin is de datapreparatie gedaan in de vorm van tekst opschonings technieken. Hierbij heb ik meerdere scripts gemaakt die te tekst opschonen van lege ruimtes,lostaande woorden. In de onderstaande nodebooks is de code voor het verwijdere van lege ruimtes en witte regels:
@@ -76,6 +77,7 @@ Notebook voor het verwijderen van enkele woorden:
 * [Removing_solowords](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Removing_solo_words.ipynb)
 
 Een andere vorm van data preperatie waar ik aan heb gewerk is het herformateren van de text bestanden, locatie van bestanden en de structuur in de tekst. Zo heb ik scripts geschreven voor het omzetten van alle tekstfiles naar een dicationary. 
+
 * [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
 
 Het splitten van zinnen in apparte regels:
@@ -93,15 +95,13 @@ Door gebruik te maken van een methode die koray heeft ontwikkeld kunnen we de ve
 Colorlabeling dataset
 Using check 1 and 0
 
-
-
 ## Evaluation
 Bij de evaluatie van de kwaliteit van de data en mijn modellen heb ik gebruikt gemaakt van verschillende maat staffen.
 
 * Accuracy score
 * N-Fold crossvalidatie:
 om er voor te zorgen dat de dataset die ik gebruik goed was heb ik de mogelijkheid voor een crossvalidatie check in mijn code geimplementeerd. Hierdoor kan ik kijken dat het deel wat ik voor de training set gebruik niet specifiek goed werkt op de bij horende test set.
-[afbeelding code N-fold]
+![afbeelding code N-fold](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/nfold.PNG)
 
 * Handmatige sellectie   (dutchwikipedia data, controle testdata)
 * ![afbeelding handmatige selectie.](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Schema%20checking%20data.PNG) 
