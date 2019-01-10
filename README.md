@@ -139,13 +139,13 @@ Scrum tickets for made Nodebooks and products
 
 Product | Scrumwise Image|link|
 --------- | ----|----
-1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%201.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/vooronderzoek-sprint-1/id-84641-10738-13)
-test1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%202.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-2/id-84641-10760-3)
-test1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Sprint%203.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-3/id-84641-11141-1)
-test1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%204.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-4/id-84641-11570-1)
-test1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%205.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-5/id-84641-11715-1)
-test1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%206.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-6/id-84641-12013-3)
-test1|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Sprint%207.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-7/id-84641-12767-1)
+Research,intervieuw vragen, presentaties |![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%201.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/vooronderzoek-sprint-1/id-84641-10738-13)
+Datacamp,Presentatie|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%202.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-2/id-84641-10760-3)
+TextCleaning,Tesktformating,Presentatie|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Sprint%203.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-3/id-84641-11141-1)
+Research,Featureselection,Codering database|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%204.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-4/id-84641-11570-1)
+Paperselection, Coursera, Codering diphones, Generation testdata|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%205.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-5/id-84641-11715-1)
+MLP classifier, presentaties|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/sprint%206.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-6/id-84641-12013-3)
+CorpusGesprokenNederlands uitzoeken|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Sprint%207.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-7/id-84641-12767-1)
 
 
 ## Add any other assignment you feel is evidence of your abilities
