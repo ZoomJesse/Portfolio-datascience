@@ -46,6 +46,7 @@ Voor de Hyperparameters van het model kiezen heb ik gebruik gemaakt van de diagn
 * Learningrate:0.003
 * Dropout:0.4
 * Hiddenlayers:3 hidden layers
+
 Afbeelding van hoe hyperparameters zijn geimplementeerd:
 ![AFBEELDINGMODEL](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/model.PNG)
 
@@ -63,7 +64,7 @@ Naam dataset | Eigenaar |Verwijzingen
 CGN_2.0.3 | Nederlandse Taalunie|[link](http://lands.let.ru.nl/cgn/)
 MPI diphones database|MPI|[link](https://www.mpi.nl/world/dcsp/diphones/index.html)  
 Voxforge database|VoxForge|[link](http://www.voxforge.org/)
-Dutch Wikipedia corpus|Rachael Tatman|![link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-d|?>?|[link](utch)
+Dutch Wikipedia corpus|Rachael Tatman|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-dutch)
 
 Ook het zelf genereren van test_data voor korte experimenten door bijvoorbeeld het zelf inspreken van audio, en daar dan de bijhorende tekst van hebben.
 
@@ -134,4 +135,10 @@ Gemaakte en gegeven presentaties
 Paper
 
 ## List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
+Scrum tickets for made Nodebooks and products
+
+Product | Scrumwise Image|link|
+--------- | ----|----
+test1|![Afbeelding](dsdad)|(https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Model%20loss.PNG)
+
 ## Add any other assignment you feel is evidence of your abilities
