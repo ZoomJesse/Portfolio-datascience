@@ -3,11 +3,10 @@ Dit is het portfolio voor KB-74 Applied data science:
 2018-2019
 Project group Aphasia.
 
-
 ## Courses 
 Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses te vinden.
 > Datacamp Screenshot:![datacamp](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Datacamp.png)
-> Coursera Screenshot:
+> Coursera Screenshot:![coursera](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/15.PNG) ![coursera2](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/6.PNG)
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 Het domein waarin het project zich bevind is de zorgkant. Het project richt zich specifiek op aphasia patienten met een licht spraak probleem. Hierin Hebben we tijdens het project te maken met medische jargon maar ook met specifieke kenmerken en begrippen die gebruikt worden warneer er met geluid wordt gewerkt.  In de onderstaande jargon zijn de verschillende begripen beschreven. 
@@ -24,13 +23,6 @@ Het domein waarin het project zich bevind is de zorgkant. Het project richt zich
 
 * **Seq 2 Seq**:Sequence to sequence learning is een probleem aanpak waarin een model wordt getraind op twee verschillende sequences bijvoorbeeld audio en een tekst sequence. Hierbij probeert het model aan de hand van een sequence te andere sequence te voorspellen.[afbeelding sec2sec]
 
-### Found datasets
-Naam dataset | Eigenaar |Verwijzingen
------------- |----------|-------------
-CGN_2.0.3 | Nederlandse Taalunie|[link](http://lands.let.ru.nl/cgn/)
-MPI diphones database|MPI|[link](https://www.mpi.nl/world/dcsp/diphones/index.html)  
-Voxforge database|VoxForge|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-d|?>?|[link](utch)
-Dutch Wikipedia corpus|?>?|[link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-d|?>?|[link](utch)
 
 ### Literature 
 Voor literatuur onderzoek, 
@@ -52,7 +44,27 @@ Parameter kiezen.
 * [MLP_Keras_nieuws](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/MLP%20keras-Nieuws.ipynb)
 * [Text_files_to_Dict](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Text_Files_To_Dict.ipynb)
 
+## Data collection
+The data collection in dit project is gebeurt overschillende manieren. 
+Door te kijken welke datasets de benodigde audio en daarbijhoorende tekst bevatten, en hiervan de kwaliteit te controleren.
 
+### Found datasets
+Naam dataset | Eigenaar |Verwijzingen
+------------ |----------|-------------
+CGN_2.0.3 | Nederlandse Taalunie|[link](http://lands.let.ru.nl/cgn/)
+MPI diphones database|MPI|[link](https://www.mpi.nl/world/dcsp/diphones/index.html)  
+Voxforge database|VoxForge|[link](http://www.voxforge.org/)
+Dutch Wikipedia corpus|Rachael Tatman|![link](https://www.kaggle.com/rtatman/spoken-wikipedia-corpus-d|?>?|[link](utch)
+
+Ook het zelf genereren van test_data voor korte experimenten door bijvoorbeeld het zelf inspreken van audio, en daar dan de bijhorende tekst van hebben.
+
+
+tabel datasets die we gevonden hebben.
+Wikipedia
+VoxForge
+UVA
+Booken omzetten
+Manualy speeking
 
 
 ## Data preparation
@@ -72,13 +84,6 @@ Het splitten van zinnen in apparte regels:
 Het verplaatsen van files op de server zodat er gemakkelijk mee gewerkt kon worden: 
 * [File_mover_onserver](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/File_Mover_Onserver.ipynb)
 
-###
-
-Cleaning text
-Reformating to used in code form koray
-CGNmaken
-Moving and formating data
-
 ## Data Visualization
 Bij het inladen van de dataset die gegenereerd wordt om phonime boundarys de voorspellen heb ik gekeken naar hoe de verhouding tussen de Positive voorbeelden en negative voorbeelden is.
 ![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Skewerd_data.PNG)
@@ -88,23 +93,18 @@ Door gebruik te maken van een methode die koray heeft ontwikkeld kunnen we de ve
 Colorlabeling dataset
 Using check 1 and 0
 
-## Data collection
-Dataset 
-tabel datasets die we gevonden hebben.
-Wikipedia
-VoxForge
-UVA
-Booken omzetten
-Manualy speeking
 
 
 ## Evaluation
 Bij de evaluatie van de kwaliteit van de data en mijn modellen heb ik gebruikt gemaakt van verschillende maat staffen.
 
 * Accuracy score
-* N-Fold crossvalidatie
+* N-Fold crossvalidatie:
+om er voor te zorgen dat de dataset die ik gebruik goed was heb ik de mogelijkheid voor een crossvalidatie check in mijn code geimplementeerd. Hierdoor kan ik kijken dat het deel wat ik voor de training set gebruik niet specifiek goed werkt op de bij horende test set.
+[afbeelding code N-fold]
+
 * Handmatige sellectie   (dutchwikipedia data, controle testdata)
-* afbeelding handmatige selectie. 
+* ![afbeelding handmatige selectie.](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Schema%20checking%20data.PNG) 
 
 ## Diagnostics of the learning process
 Tijdens het leren van moddelen heb ik gebruik gemaakt van verschillende methodes om te kijken of het leerprocess goed verloopt. Tijdens het trainen zelf heb ik ingeschakkeld dat per epochs gezien kan worden van de score in accuracy is op de training en test set, ook de loss van het model is weer te geven. 
