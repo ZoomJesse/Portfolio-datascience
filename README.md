@@ -3,6 +3,11 @@ Dit is het portfolio voor KB-74 Applied data science:
 2018-2019
 Project group Aphasia.
 
+**Dreamteam:**
+* Erik van der Caaij,(15059421)
+* Koray Poyraz,      (15068145)
+* Rene Uhliar,       (14036738)
+
 ## Courses 
 Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses te vinden.
 > Datacamp Screenshot:![datacamp](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Datacamp.png)
