@@ -9,12 +9,12 @@ Project group Aphasia.
 * Rene Uhliar,       (14036738)
 
 ## Courses 
-Voor de Minor werden online courses gegeven, Hieronder zijn de voltooide courses te vinden.
+Voor de Minor werden online courses gegeven, Hieronder is bewijs van de voltooide courses te vinden.
 > Datacamp Screenshot:![datacamp](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Datacamp.png)
 > Coursera Screenshot:![coursera](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/15.PNG) ![coursera2](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/6.PNG)
 
-## Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-Het domein waarin het project zich bevind is de zorgkant. Het project richt zich specifiek op aphasia patienten met een licht spraak probleem. Hierin Hebben we tijdens het project te maken met medische jargon maar ook met specifieke kenmerken en begrippen die gebruikt worden warneer er met geluid wordt gewerkt.  In de onderstaande jargon zijn de verschillende begripen beschreven. 
+## Domain Knowledge (Literature, jargon, evaluation, existing data sets)
+Het domein waarin het project zich bevind is de zorg. Het project richt zich specifiek op aphasia patienten met een licht spraak probleem. Hierin Hebben we tijdens het project te maken met medische jargon maar ook met specifieke kenmerken en begrippen die gebruikt worden warneer er geluid wordt gewerkt.  In de onderstaande jargon zijn de verschillende begripen beschreven. 
 
 ### Jargon:
 
@@ -33,6 +33,7 @@ Het domein waarin het project zich bevind is de zorgkant. Het project richt zich
 
 In het domein van ASR en Aphasia onderzoek in de voor van datascience zijn de volgende artikelen handig om in te kijken. 
 Onderzoek van Roelant Ossewaarde, Hierbij wordt gebruik gemaakt van audio van aphasia patienten en technieken binnen datasciece om pauzes te detecteren. Ook heeft hij een artikel geschreven over computer technieken gebruikt kunnen worden bij geluid van aphasia patienten.
+
 * [Computerized assessment of the acoustics of primary progressive aphasia](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
 * [Automated detection of unfilled pauses in speech of healthy and brain-damaged individuals](http://hdl.handle.net/11370/5ec79acc-5161-4c5d-8e09-98dc15042f4e)
 
@@ -123,7 +124,7 @@ Acucuracy | loss
 --------- | ----
 ![Afbeelding_acuracy](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/acurracy.PNG)|![Afbeelding_kosten](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Model%20loss.PNG)
 
-## Communication (presentations, summaries, paper, ...)
+## Communication (presentations, paper)
 Gemaakte en gegeven presentaties 
 
 ### Gemaakte presentaties:
