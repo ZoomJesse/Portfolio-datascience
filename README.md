@@ -96,6 +96,7 @@ Het verplaatsen van files op de server zodat er gemakkelijk mee gewerkt kon word
 ## Data Visualization
 Bij het inladen van de dataset die gegenereerd wordt om phonime boundarys de voorspellen heb ik gekeken naar hoe de verhouding tussen de Positive voorbeelden en negative voorbeelden is.
 ![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Skewerd_data.PNG)
+
 Door gebruik te maken van een methode die koray heeft ontwikkeld kunnen we de verhouding van de voorbeelden gelijk te maken. Dit voorkomt dat de classifier alleen maar 0 gaat voorspellen omdat deze voorbeelden dan veel meer voorkomen. 
 ![Afbeeldingerna](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Skewer_data_after.PNG)
 
@@ -111,6 +112,7 @@ om er voor te zorgen dat de dataset die ik gebruik goed was heb ik de mogelijkhe
 ![afbeelding code N-fold](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/nfold.PNG)
 
 * Handmatige sellectie   (dutchwikipedia data, controle testdata)
+
 * ![afbeelding handmatige selectie.](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Schema%20checking%20data.PNG) 
 
 ## Diagnostics of the learning process
