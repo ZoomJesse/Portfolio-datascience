@@ -11,10 +11,10 @@ Project group Aphasia.
 ## Courses 
 Voor de Minor werden online courses gegeven, Hieronder is bewijs van de voltooide courses te vinden.
 > Datacamp Screenshot:![datacamp](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Datacamp.png)
-> Coursera Screenshot:![coursera](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/15.PNG) ![coursera2](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/6.PNG)
+> Coursera Screenshot:![coursera](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Coursera.png)![coursera](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/15.PNG) ![coursera2](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/6.PNG)
 
 ## Domain Knowledge (Literature, jargon, evaluation, existing data sets)
-Het domein waarin het project zich bevind is de zorg. Het project richt zich specifiek op aphasia patienten met een licht spraak probleem. Hierin Hebben we tijdens het project te maken met medische jargon maar ook met specifieke kenmerken en begrippen die gebruikt worden warneer er geluid wordt gewerkt.  In de onderstaande jargon zijn de verschillende begripen beschreven. 
+Het domein waarin het project zich bevind is de zorg. Het project richt zich specifiek op aphasia patienten met een licht spraak probleem. Hierin Hebben we tijdens het project te maken met medische jargon maar ook met specifieke kenmerken en begrippen die gebruikt worden wanneer er geluid wordt verwerkt.  In de onderstaande jargon zijn de verschillende begripen beschreven. 
 
 ### Jargon:
 
@@ -120,7 +120,7 @@ Tijdens het leren van moddelen heb ik gebruik gemaakt van verschillende methodes
 
 Door dit in de gaten te houden bij het trainen kon ik gemakelijker bepalen of de gekozen learningrate en batchsize goed was voor het huidige model. En indien nodig het eerder veranderen naar groter of klein indien de resultaten verminderende. Na het trainen van het helemodel heb ik de per epoch weergegeven wat de score was zodat ik hierin kon bepalen of mischien mijn model overfit of underfit was. ook kon ik hier goed zien of mischien minder epochs ook goed was voor het trainen van mijn model
 
-Acucuracy | loss
+Accuracy | model loss
 --------- | ----
 ![Afbeelding_acuracy](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/acurracy.PNG)|![Afbeelding_kosten](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Model%20loss.PNG)
 
@@ -138,7 +138,6 @@ Gemaakte en gegeven presentaties
 8. [Presentatie week 10](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%2010.pptx)
 9. [Presentatie week 11](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Aphasia%20presentatie%20week%2011.pptx)
 
-Paper
 
 ## List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
 Scrum tickets for made Nodebooks and products
@@ -154,4 +153,3 @@ MLP classifier, presentaties|![Afbeelding](https://github.com/ZoomJesse/Portfoli
 CorpusGesprokenNederlands uitzoeken|![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Sprint%207.PNG)|[link](https://www.scrumwise.com/scrum/#/taskboard/sprint/sprint-7/id-84641-12767-1)
 
 
-## Add any other assignment you feel is evidence of your abilities
