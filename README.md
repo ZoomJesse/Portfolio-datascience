@@ -126,6 +126,10 @@ Accuracy | model loss
 --------- | ----
 ![Afbeelding_acuracy](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/acurracy.PNG)|![Afbeelding_kosten](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Model%20loss.PNG)
 
+Hierin is goed de te zien dat na de 30ste epoch het model begint te overfitten. Er is dan sprake van een laage bias en een te hoge variance. Hierdoor is te zien dat het beste resultaat wat het model kan behalen rond de 60% validatie accuracy.
+
+
+
 ## Communication (presentations, paper)
 Gemaakte en gegeven presentaties 
 
