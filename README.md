@@ -93,6 +93,7 @@ Het splitten van zinnen in apparte regels:
 Het verplaatsen van files op de server zodat er gemakkelijk mee gewerkt kon worden: 
 * [File_mover_onserver](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/File_Mover_Onserver.ipynb)
 
+
 ## Data Visualization
 Bij het inladen van de dataset die gegenereerd wordt om phonime boundarys de voorspellen heb ik gekeken naar hoe de verhouding tussen de Positive voorbeelden en negative voorbeelden is.
 ![Afbeelding](https://github.com/ZoomJesse/Portfolio-datascience/blob/master/Skewerd_data.PNG)
